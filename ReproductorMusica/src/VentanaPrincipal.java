@@ -17,7 +17,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JMenu;
 
 public class VentanaPrincipal {
-
+ //prueba
 	private JFrame frame;
 	private final JButton btnPlaypausa = new JButton("Play/Pausa");
 	private final JMenuBar menuBar = new JMenuBar();
