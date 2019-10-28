@@ -16,7 +16,7 @@ import javax.swing.SwingConstants;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JMenu;
 
-public class bb {
+public class VentanaPrincipal {
 
 	private JFrame frame;
 	private final JButton btnPlaypausa = new JButton("Play/Pausa");
@@ -75,7 +75,7 @@ public class bb {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					bb window = new bb();
+					VentanaPrincipal window = new VentanaPrincipal();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -87,7 +87,7 @@ public class bb {
 	/**
 	 * Create the application.
 	 */
-	public bb() {
+	public VentanaPrincipal() {
 		initialize();
 	}
 
